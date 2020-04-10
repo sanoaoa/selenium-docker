@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.DemoWebTours.Test.MyTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+          <include name="ConfPage"/>
+          <include name="FlightSummeryTest"/>
+          <include name="SelectFlights"/>
+          <include name="LogOut"/>
+          <include name="RegistrationTest"/>
+        </methods>
+      </class> <!-- com.DemoWebTours.Test.MyTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
